@@ -1,8 +1,8 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO emberdawn-game/emberdawn-irrlicht
-        REF "1.9.0-alpha.2"
-        SHA512 1950c999126cd9028204c74e3b4ba6eca3cf81a03ec89e2247ae4ee4378ad4a9200d1411800369071cc32059f6cd5c6c80103289b0f231ab2bcf807c339f2a8d
+        REF "1.9.0-alpha.3"
+        SHA512 c3baf3e8cf56c3caee08a7653536ded7825e3398b2a0d76f91b245a07aa8ed2e48f61276e8142fe009512e67d712557e05b03f94651bbf089a38c9350ecda07e
         HEAD_REF main
 )
 
@@ -10,7 +10,7 @@ vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}" OPTIONS -DBUILD_EXAMPLES=fals
 
 vcpkg_cmake_install()
 
-vcpkg_cmake_config_fixup(CONFIG_PATH lib/cmake/EmberdawnIrrlicht)
+vcpkg_cmake_config_fixup(CONFIG_PATH lib/cmake/emberdawn-irrlicht)
 
 file(REMOVE_RECURSE "${CURRENT_PACKAGES_DIR}/debug/include")
 
