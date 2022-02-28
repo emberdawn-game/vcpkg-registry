@@ -1,8 +1,8 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO emberdawn-game/emberdawn-irrlicht
-        REF "1.9.0-alpha.4"
-        SHA512 c171d265f53527cc5b65006ff531f1c2c2a25184b542650e7385fcdfde08f2906cfad0b7be689e605c20d2eb20bef10dcf86b5f2b91e6e588a0445a9299b75f7
+        REF "1.9.0-alpha.5"
+        SHA512 a2248ee196266628167711714bd95b428346ab0d293698d9b6418c8b0dbd1f754bee8578681b10c813b6edacf8712281787e5d9454ec15efada26cc971dd9b32
         HEAD_REF main
 )
 
